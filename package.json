@@ -1,0 +1,28 @@
+{
+  "name": "nestjs-tutorial",
+  "version": "1.0.0",
+  "description": "First nestjs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidan90/nestjs-tutorial.git"
+  },
+  "author": "davidan90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidan90/nestjs-tutorial/issues"
+  },
+  "homepage": "https://github.com/davidan90/nestjs-tutorial#readme",
+  "dependencies": {
+    "@nestjs/common": "^4.6.6",
+    "@nestjs/core": "^4.6.6",
+    "@nestjs/microservices": "^4.6.6",
+    "@nestjs/testing": "^4.6.6",
+    "@nestjs/websockets": "^4.6.6",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.1.0"
+  }
+}
