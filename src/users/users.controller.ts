@@ -1,5 +1,5 @@
-import { Controller, Get, Post, Param } from '@nestjs/common';
-
+import { Controller, Get, Post, Param, Body } from '@nestjs/common';
+import { CreateUserDto } from './dto/create-user.dto';
 @Controller('users')
 export class UsersController {
     @Get()
@@ -13,7 +13,7 @@ export class UsersController {
     }
 
     @Post()
-    create() {
+    async create(@Body() createUserDto: CreateUserDto) {
         // TODO logic
     }
 }
