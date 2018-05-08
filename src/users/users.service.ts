@@ -2,14 +2,18 @@ import { Component } from '@nestjs/common';
 import { User } from './interface/users.interface';
 
 @Component()
-export class UserService {
+export class UsersService {
     private readonly users: User[];
 
-    findAll() {
+    findAll(): User[] {
         return this.users;
     }
 
-    create(user: User) {
+    findOne(name: string): object {
+        return this.users.find( user => user.name === id);
+    }
 
+    create(user: User) {
+        this.users.push(user);
     }
 }
