@@ -2,7 +2,7 @@
   "name": "nestjs-tutorial",
   "version": "1.0.0",
   "description": "First nestjs app",
-  "main": "src/main.js",
+  "main": "./src/main.js",
   "scripts": {
     "start": "ts-node src/main.ts",
     "prestart:prod": "tsc",
@@ -26,6 +26,11 @@
     "@nestjs/testing": "^4.6.6",
     "@nestjs/websockets": "^4.6.6",
     "reflect-metadata": "^0.1.12",
-    "rxjs": "^6.1.0"
+    "rxjs": "^6.1.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.6",
+    "ts-node": "^6.0.3"
   }
 }
