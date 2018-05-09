@@ -2,7 +2,6 @@
   "name": "nestjs-tutorial",
   "version": "1.0.0",
   "description": "First nestjs app",
-  "main": "./src/main.js",
   "scripts": {
     "start": "ts-node src/main.ts",
     "prestart:prod": "tsc",
@@ -25,6 +24,8 @@
     "@nestjs/microservices": "^4.6.6",
     "@nestjs/testing": "^4.6.6",
     "@nestjs/websockets": "^4.6.6",
+    "class-transformer": "^0.1.9",
+    "class-validator": "^0.8.5",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.1.0",
     "typescript": "^2.8.3"
