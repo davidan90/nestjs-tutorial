@@ -13,7 +13,7 @@ export class UsersController {
         return this.usersService.findAll();
     }
 
-    @Get(':name')
+    @Get('/:name')
     findOne(@Param() {name}) {
         return this.usersService.findOne(name);
     }
